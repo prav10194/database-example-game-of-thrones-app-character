@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView3"
+    android:layout_marginTop="18dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="wrap_content"
+    android:layout_height="151dp"
+    android:layout_below="@+id/textView3"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/targayren" />
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/imageView1"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="14dp"
+    android:maxLength="1000000"
+    android:text="House Targaryen is one of the former Great Houses of Westeros and was the ruling royal House of the Seven Kingdoms for three centuries, before it was deposed during Roberts Rebellion and House Baratheon replaced it as the new royal House. The few surviving Targaryens fled into exile. House Targaryens sigil is a three-headed red dragon on a black background, and their words are Fire and Blood." />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+     android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_below="@+id/textView1"
+     android:maxLength="1000000"
+    android:text="Once a noble family of the vast Valyrian Freehold, an empire spanning most of the eastern continent, the Targaryens were given control of the island of Dragonstone in the Narrow Sea some centuries ago. After the obliteration of Valyria in the Doom, the Targaryens launched a devastating invasion of Westeros using three dragons to spearhead their attack. In a short period of time, six of the seven formerly independent kingdoms had surrendered to the Targaryen leader, King Aegon I, unifying the continent under his rule. The last hold-out, Dorne, joined the kingdom through a political and marriage alliance some two centuries later. During the increasingly erratic reign of King Aerys II, his son Rhaegar kidnapped Lyanna Stark of Winterfell for unknown reasons. This sparked a massive uprising led by Eddard Stark, Robert Baratheon and Jon Arryn. At the end of this war Aerys and Rhaegar were dead and the Targaryen power-base in Westeros destroyed. Aeryss youngest children, Viserys and Daenerys, were taken by Targaryen loyalists into exile in the Free Cities of the East. Generations of compound inbreeding have preserved in the Targaryen bloodline the classic Valyrian features of silver-white (platinum blonde) hair, and very fair, pale skin. Allegedly, this also preserved in their bloodline the ability to successfully bond with and ride dragons. They also seem to be somewhat more tolerant of extreme heat and high temperatures than other people, though they are by no means invulnerable to fire – or at least, not all of them." />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:text="House Targaryen"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:textColor="#a00"/>
+
+
+
+</RelativeLayout>

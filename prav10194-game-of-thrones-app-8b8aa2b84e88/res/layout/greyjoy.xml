@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView3"
+    android:layout_marginTop="18dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="wrap_content"
+    android:layout_height="151dp"
+    android:layout_below="@+id/textView3"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/greyjoy" />
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/imageView1"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="14dp"
+    android:maxLength="1000000"
+    android:text="House Greyjoy is one of the Great Houses of Westeros. It rules over the Iron Islands, a harsh and bleak collection of islands off the west coast of Westeros, from the castle at Pyke. The head of the house is the Lord Reaper of Pyke. House Greyjoys sigil is traditionally a golden kraken on a black field. Their house motto is, We Do Not Sow." />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+     android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_below="@+id/textView1"
+     android:maxLength="1000000"
+    android:text="House Greyjoy is one of the Great Houses of Westeros. Their lands are the Iron Islands off the west coast of the continent. They rule from their castle Pyke from the island of the same name. The Iron Islands are harsh and bleak and the Greyjoys have traditionally survived by raiding their neighbors. They have always had plans to conquer the mainland. The head of the house is the Lord Reaper of Pyke. House Greyjoy boasts descent from the Grey King, a legendary King of the Iron Islands said to have ruled for a thousand years and taken a mermaid as wife. Like the vast majority of ironborn, they worship the Drowned God. Lord Balon Greyjoy is the most recent head of the house. He led a rebellion against King Robert Baratheon eight years before the events of the series begin. Balons sons Rodrik and Maron were killed in the unsuccessful rebellion. Balons only surviving son Theon was made a ward of Lord Eddard Stark to ensure Balons submission to King Robert. Only his daughter, Yara Greyjoy, and two of his brothers remained on the Iron Islands after his defeat." />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:text="House Greyjoy"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:textColor="#a00"/>
+
+
+
+</RelativeLayout>

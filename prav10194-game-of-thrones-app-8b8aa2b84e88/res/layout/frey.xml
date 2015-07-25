@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView3"
+    android:layout_marginTop="18dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="wrap_content"
+    android:layout_height="151dp"
+    android:layout_below="@+id/textView3"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/frey" />
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/imageView1"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="14dp"
+    android:maxLength="1000000"
+    android:text="House Frey was a vassal of House Tully of the Riverlands and holds its fealty to the Lord of Riverrun. Its current ruler is Lord Walder Frey. Their castle is known as the Twins, for its two identical keeps on either side of a river linked by a bridge, sometimes called the Stone Bridge. The Twins is one of the primary crossings over the Green Fork of the Trident River, and tolls from bridge crossings have made the Freys quite wealthy fairly quickly, elevating them from obscurity six centuries ago to being one of the most powerful noble Houses in the Riverlands - though they are looked down upon by older aristocratic families. The Heraldry of House Frey represents their castle-seat of the Twins: it consists of two grey towers linked by a bridge, on a darker grey background, over an escutcheon of blue water. " />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+     android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_below="@+id/textView1"
+     android:maxLength="1000000"
+    android:text="During Roberts Rebellion, the jest was made that Lord Walder arrived late to the Battle of the Trident because he was waiting for his army to come of age...given that he had produced most of his soldiers from within his own britches (directly or indirectly through his previous children). Walder devoted the next seventeen years to making this claim a reality" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:text="House Frey"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:textColor="#a00"/>
+
+
+
+</RelativeLayout>

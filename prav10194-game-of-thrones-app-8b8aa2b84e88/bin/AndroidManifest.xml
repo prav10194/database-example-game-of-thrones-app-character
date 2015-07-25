@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appengers.database1"
+    android:versionCode="5"
+    android:versionName="1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon25"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.database1.MainActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+             android:screenOrientation="portrait"
+            
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.database1.Data"
+            android:theme="@android:style/Theme.NoTitleBar"
+             android:screenOrientation="portrait"
+            
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DATA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name="com.example.database1.AboutUs"
+             android:screenOrientation="portrait"
+            
+            android:label="@string/app_name" 
+             android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="android.intent.action.ABOUTUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name="com.example.database1.Tab1Activity"
+            android:theme="@android:style/Theme.NoTitleBar"
+             android:screenOrientation="portrait"
+            
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.INFORMATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name="com.example.database1.Tab2Activity"
+            android:theme="@android:style/Theme.NoTitleBar"
+             android:screenOrientation="portrait"
+            
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.INFORMATION2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+             <activity
+            android:name="com.example.database1.Tab4Activity"
+            android:theme="@android:style/Theme.NoTitleBar"
+             android:screenOrientation="portrait"
+            
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.INFORMATION4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+              <activity
+            android:name="com.example.database1.Tab5Activity"
+            android:theme="@android:style/Theme.NoTitleBar"
+             android:screenOrientation="portrait"
+            
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.INFORMATION55" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+               <activity
+            android:name="com.example.database1.Tab7Activity"
+            android:theme="@android:style/Theme.NoTitleBar"
+             android:screenOrientation="portrait"
+            
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.INFORMATION7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                <activity
+            android:name="com.example.database1.Tab8Activity"
+            android:theme="@android:style/Theme.NoTitleBar"
+             android:screenOrientation="portrait"
+            
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.INFORMATION8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                 <activity
+            android:name="com.example.database1.Tab10Activity"
+            android:theme="@android:style/Theme.NoTitleBar"
+             android:screenOrientation="portrait"
+            
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.INFORMATION10" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                  <activity
+            android:name="com.example.database1.Tab11Activity"
+            android:theme="@android:style/Theme.NoTitleBar"
+             android:screenOrientation="portrait"
+            
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.INFORMATION11" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                   <activity
+            android:name="com.example.database1.Tab14Activity"
+            android:theme="@android:style/Theme.NoTitleBar"
+             android:screenOrientation="portrait"
+            
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.INFORMATION14" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                    <activity
+            android:name="com.example.database1.Tab16Activity"
+            android:theme="@android:style/Theme.NoTitleBar"
+             android:screenOrientation="portrait"
+            
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.INFORMATION16" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                   
+              <activity
+            android:name="com.example.database1.TabBarActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+             android:screenOrientation="portrait"
+            
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.INFORMATION5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+               <activity
+            android:name="quotes.Start"
+            android:theme="@android:style/Theme.NoTitleBar"
+             android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.QUOTES1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="quotes.About"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="portrait"
+           >
+            <intent-filter>
+                <action android:name="android.intent.action.QUOTES2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name="quotes.MainActivityquotes"
+            android:theme="@android:style/Theme.NoTitleBar"
+             android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.QUOTES4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+              
+              
+    </application>
+
+</manifest>

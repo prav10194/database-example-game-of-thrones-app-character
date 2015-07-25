@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView3"
+    android:layout_marginTop="18dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="wrap_content"
+    android:layout_height="151dp"
+    android:layout_below="@+id/textView3"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/martell" />
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/imageView1"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="14dp"
+    android:maxLength="1000000"
+    android:text="House Martell is one of the Great Houses of Westeros. It rules the peninsula of Dorne in the far south of the continent from their castle Sunspear. Though loyal to the Iron Throne, it has pursued a more isolated role in wider political events since Roberts Rebellion. House Martells sigil is a red sun pierced by a golden spear, on an orange field. The motto for the house is, Unbowed, Unbent, Unbroken" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+     android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_below="@+id/textView1"
+     android:maxLength="1000000"
+    android:text="In season 2, Tyrion Lannister announces his plan to marry Myrcella Baratheon to Prince Trystane Martell of Dorne. The alliance is intended to take advantage of the historical enmity between Dorne and the Reach, to keep the Dornish from siding with their enemies in the War of the Five Kings, and to ensure the survival of a Baratheon/Lannister heir should Kings Landing fall. Cersei is shocked, and tells her brother that the Martells loathe them. Tyrion concurs, but says that this is exactly why they need to seduce the Martells back into allegiance, by offering them a royal marriage alliance. Some weeks later, Tyrion, Cersei, and Joffrey see Myrcella off from the docks for the first stage of her journey to Dorne." />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:text="House Stark"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:textColor="#a00"/>
+
+
+
+</RelativeLayout>
